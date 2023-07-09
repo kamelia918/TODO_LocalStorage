@@ -1,0 +1,43 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient( pink , lightblue );
+}
+
+.container{
+    padding: 20px;
+    border: none;
+    width: fit-content;
+    margin: auto;
+    margin-top: 200px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.todo{
+    border: 1px solid lightpink;
+    margin: 10px 0 ;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 50px;
+    height: 25px;
+    background-color: #ECF8F9;
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #FCE9F1;
+}
+#trash{
+    margin:20px 0 0 80px ;
+}
+.remove {
+    visibility: hidden;
+    text-decoration: none;
+}
